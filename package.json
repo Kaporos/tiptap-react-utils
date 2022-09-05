@@ -1,8 +1,7 @@
 {
   "name": "tiptap-react-utils",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A package containing stuff to make life easier while working with tiptap and react",
-  "main": "index.js",
   "files": ["lib/**/*"],
   "scripts": {
     "build": "tsc",
