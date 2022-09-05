@@ -1,7 +1,7 @@
 # tiptap-react-utils
 
 Here's a sample use of this lib:
-    ```typescript
+```typescript
     import { Node, NodeViewWrapper } from "@tiptap/react"
     import {getBasicNodeConfiguration, NodeProps} from "tiptap-react-utils"
 
@@ -29,4 +29,4 @@ Here's a sample use of this lib:
     })
 
     export default SuperNode
-
+```
