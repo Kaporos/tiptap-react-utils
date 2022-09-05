@@ -5,11 +5,12 @@ import { ClassType, Component } from 'react';
 
 export function getBasicNodeConfiguration(
   nodeName: string,
-  reactComponent: Component,
+  reactComponent: Function,
   attributes: object | ClassType<any, any, any>,
 ): Partial<NodeConfig> {
   return {
     title: nodeName,
+    group: "block",
     addAttributes() {
       return getAttributes(attributes);
     },
@@ -30,7 +31,7 @@ export function getBasicNodeConfiguration(
   };
 }
 
-export function getAttributes(sample: object | ClassType<any, any, any>) {
+function getAttributes(sample: object | ClassType<any, any, any>) {
   if (typeof sample === 'function') {
     sample = new sample();
   }
