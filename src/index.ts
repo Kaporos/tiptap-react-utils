@@ -1,6 +1,6 @@
-//@ts-ignore
+// @ts-ignore
 import { Editor, Extension, mergeAttributes, NodeConfig, ReactNodeViewRenderer } from '@tiptap/react';
-//@ts-ignore
+// @ts-ignore
 import { ClassType, Component } from 'react';
 
 export function getBasicNodeConfiguration(
