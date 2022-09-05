@@ -5,7 +5,7 @@ import { ClassType, Component } from 'react';
 
 export function getBasicNodeConfiguration(
   nodeName: string,
-  reactComponent: Function,
+  reactComponent: any,
   attributes: object | ClassType<any, any, any>,
 ): Partial<NodeConfig> {
   return {
