@@ -1,7 +1,7 @@
 # tiptap-react-utils
 
 Here's a sample use of this lib:
-
+    ```typescript
     import { Node, NodeViewWrapper } from "@tiptap/react"
     import {getBasicNodeConfiguration, NodeProps} from "tiptap-react-utils"
 
@@ -23,7 +23,6 @@ Here's a sample use of this lib:
       )
     }
 
-    console.log(getBasicNodeConfiguration("super-node", Super, SuperAttributes))
 
     const SuperNode = Node.create({
       ...getBasicNodeConfiguration("super-node", Super, SuperAttributes),

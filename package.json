@@ -1,6 +1,6 @@
 {
   "name": "tiptap-react-utils",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A package containing stuff to make life easier while working with tiptap and react",
   "files": ["lib/**/*"],
   "main": "lib/index.js",
